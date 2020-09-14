@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>Components.Extension</id>
+    <version>1.0.0</version>
+    <title>Components.Extension</title>
+    <authors>Kassard</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/Kassard/ControlExtensions/tree/master/Forms.Control.Extensions/</projectUrl>
+    <iconUrl>https://github.com/Kassard/ControlExtensions/tree/master/Forms.Control.Extensions/</iconUrl>
+    <description>UI extensions for standard components</description>
+    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
+    <copyright>Copyright 2020</copyright>
+    <tags>extensions components</tags>
+  </metadata>
+</package>
