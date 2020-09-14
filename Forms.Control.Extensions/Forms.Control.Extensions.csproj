@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9BAC31D0-115E-48CE-BEA3-A7D6E958C13A}</ProjectGuid>
+    <ProjectGuid>{0A884048-7AE4-4B35-A989-E8D4C2F434AA}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>Forms.ControlLibrary</RootNamespace>
-    <AssemblyName>Forms.ControlLibrary</AssemblyName>
+    <RootNamespace>Forms.Control.Extensions</RootNamespace>
+    <AssemblyName>Forms.Control.Extensions</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -47,6 +47,12 @@
     </Compile>
     <Compile Include="Textbox\NumericTextBox.Designer.cs">
       <DependentUpon>NumericTextBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl1.Designer.cs">
+      <DependentUpon>UserControl1.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />

@@ -8,14 +8,14 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Forms.ControlLibrary.Textbox
+namespace FormControlExtensions.Textbox
 {
     public partial class NumericTextBox : TextBox
     {
         string DecimalSeparator;
         private bool _AllowOnlyInteger;// = false;
 
-        [Category("Numeric Events")]
+        [Category("TKIS Events")]
         [Description("Allow decimal seperator")]
         public bool AllowOnlyInteger
         {
@@ -29,7 +29,7 @@ namespace Forms.ControlLibrary.Textbox
             }
         }
 
-        public double Value
+        public double value
         {
             get { return Convert.ToDouble(this.Text); }
         }
