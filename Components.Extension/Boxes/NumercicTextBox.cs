@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace FormControlExtensions.Textbox
+namespace Components.Extension.Boxes
 {
     public partial class NumericTextBox : TextBox
     {

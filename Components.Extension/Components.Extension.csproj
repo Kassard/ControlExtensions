@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{305E7E15-41D0-4881-AD09-26E424B8382E}</ProjectGuid>
+    <ProjectGuid>{D87A849F-1F10-4C27-A3FD-A668B0AA1A2A}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>FormControlExtensions</RootNamespace>
-    <AssemblyName>FormControlExtensions</AssemblyName>
+    <RootNamespace>Components.Extension</RootNamespace>
+    <AssemblyName>Components.Extension</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -42,17 +42,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Textbox\NumericTextBox.cs">
+    <Compile Include="Boxes\NumercicTextBox.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="Textbox\NumericTextBox.Designer.cs">
-      <DependentUpon>NumericTextBox.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UserControl1.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UserControl1.Designer.cs">
-      <DependentUpon>UserControl1.cs</DependentUpon>
+    <Compile Include="Boxes\NumercicTextBox.Designer.cs">
+      <DependentUpon>NumercicTextBox.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />

@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("FormControlExtensions")]
+[assembly: AssemblyTitle("Components.Extension")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("FormControlExtensions")]
+[assembly: AssemblyProduct("Components.Extension")]
 [assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("305e7e15-41d0-4881-ad09-26e424b8382e")]
+[assembly: Guid("d87a849f-1f10-4c27-a3fd-a668b0aa1a2a")]
 
 // Version information for an assembly consists of the following four values:
 //
