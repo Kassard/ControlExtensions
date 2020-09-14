@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30503.244
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormControlExtensions", "FormControlExtensions\FormControlExtensions.csproj", "{305E7E15-41D0-4881-AD09-26E424B8382E}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApp", "TestApp\TestApp.csproj", "{74115513-051B-4A5C-B17E-E861EF475414}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Forms.Control.Extensions", "Forms.Control.Extensions\Forms.Control.Extensions.csproj", "{0A884048-7AE4-4B35-A989-E8D4C2F434AA}"
@@ -15,10 +13,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{305E7E15-41D0-4881-AD09-26E424B8382E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{305E7E15-41D0-4881-AD09-26E424B8382E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{305E7E15-41D0-4881-AD09-26E424B8382E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{305E7E15-41D0-4881-AD09-26E424B8382E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{74115513-051B-4A5C-B17E-E861EF475414}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{74115513-051B-4A5C-B17E-E861EF475414}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74115513-051B-4A5C-B17E-E861EF475414}.Release|Any CPU.ActiveCfg = Release|Any CPU

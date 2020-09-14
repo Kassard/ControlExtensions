@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>FormControlExtensions</id>
+    <version>1.0.1</version>
+    <title>Forms.Control.Extensions</title>
+    <authors>Kassard</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/Kassard/ControlExtensions/</projectUrl>
+    <iconUrl>https://github.com/Kassard/ControlExtensions/</iconUrl>
+    <description>UI extensions for standard components</description>
+    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
+    <copyright>Copyright 2020</copyright>
+    <tags>extensions components</tags>
+  </metadata>
+</package>
