@@ -2,16 +2,23 @@
 <package >
   <metadata>
     <id>Components.Extension</id>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <title>Components.Extension</title>
     <authors>Kassard</authors>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <license type="expression">MIT</license>
-    <projectUrl>https://github.com/Kassard/ControlExtensions/tree/master/Forms.Control.Extensions/</projectUrl>
-    <iconUrl>https://github.com/Kassard/ControlExtensions/tree/master/Forms.Control.Extensions/</iconUrl>
+    <projectUrl>https://github.com/Kassard/ControlExtensions/</projectUrl>
+    <repository type="git" url="https://github.com/Kassard/ControlExtensions/"/>
+    <icon>images\Avatar.png</icon>
     <description>UI extensions for standard components</description>
-    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
+    <releaseNotes>Design Update</releaseNotes>
     <copyright>Copyright 2020</copyright>
     <tags>extensions components</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework4.7.2" />
+    </dependencies>
   </metadata>
+  <files>
+    <file src="Avatar.png" target="images\"/>
+  </files>
 </package>

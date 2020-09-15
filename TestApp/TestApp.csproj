@@ -34,7 +34,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Components.Extension, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Components.Extension.1.0.0\lib\net472\Components.Extension.dll</HintPath>
+      <HintPath>..\packages\Components.Extension.1.0.1\lib\net472\Components.Extension.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
