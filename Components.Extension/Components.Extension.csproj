@@ -8,9 +8,10 @@
     <OutputType>Library</OutputType>
     <RootNamespace>Components.Extension</RootNamespace>
     <AssemblyName>Components.Extension</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -48,7 +49,8 @@
     <Compile Include="Boxes\NumercicTextBox.Designer.cs">
       <DependentUpon>NumercicTextBox.cs</DependentUpon>
     </Compile>
-    <Compile Include="Extensions\Extension.cs" />
+    <Compile Include="Cryptography\Extensions.cs" />
+    <Compile Include="Extensions\Guard.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
   </ItemGroup>
