@@ -1,4 +1,4 @@
-https://img.shields.io/github/forks/Kassard/ControlExtensions?style=social
+![GitHub forks](https://img.shields.io/github/forks/Kassard/ControlExtensions?style=social)
 
 # ControlExtensions
 
