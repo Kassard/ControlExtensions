@@ -1,4 +1,4 @@
-![AppVeyor](https://img.shields.io/appveyor/build/Kassard/ControlExtensions)
+https://img.shields.io/github/forks/Kassard/ControlExtensions?style=social
 
 # ControlExtensions
 
